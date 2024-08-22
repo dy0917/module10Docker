@@ -1,7 +1,7 @@
 version: "3"
 services:
-  my-first-docker-app:
-    build: ./
+  app:
+    image: dy0917/mvc-structure:latest
     ports:
       - "8080:8080"
 
